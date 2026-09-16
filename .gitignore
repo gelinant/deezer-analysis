@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Projet Deezer ---
+# Zone d'atterrissage brute et cache HTTP : régénérables via `make load`
+data/
+
+# Artefacts dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
